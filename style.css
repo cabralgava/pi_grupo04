@@ -1,14 +1,18 @@
-body {
-    margin: 0;
-    padding: 0;
+* {
+    text-decoration:none;
     box-sizing: border-box;
+}
+
+body {
     background-color: #FFFFFF;
+    max-width: 100vw;
 }
 
 .box1 {
     height: 66px;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -19,37 +23,181 @@ body {
 
 .menu1 li {
     display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 12px;
 }  
 
 .box2 {
+    display: flex;
+    justify-content: space-around;
     height: 40px;
     background-color: #1D3D73;
-    display: flex;
-    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 12px;
     align-items: center;
 }
 
-.menu2 li {
-    display: inline;
-}  
+.box2 a {
+    color: #FFFFFF;
+}
+
+.pesquisar input {
+    width: 178px;
+    height: 20px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 21px;
+    background: #1D3D73;
+    justify-self: center;
+    color: #FFFFFF;
+}
+
 
 .banner {
     margin-top: 38px;
     display: flex;
     justify-content: center;
-    size: 100vw;
+    width: 100%
 }
 
 .servicos1 {
     margin-top: 46px;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .servicos2 {
     margin-top: 12px;
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+#diarista {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labeldiarista {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 25%;
+}
+
+#encanador {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px
+}
+
+.labelencanador{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 12%;
+}
+
+#dedetizador {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px
+}
+
+.labeldedetizador{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 9%;
+}
+
+#eletricista {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labeleletricista{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 15%;
+}
+
+#pedreiro {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labelpedreiro{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 20%;
+}
+
+#jardineiro {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labeljardineiro{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 15%;
+}
+
+#chaveiro {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labelchaveiro{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 20%;
+}
+
+#montador {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.labelmontador{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 17%;
+}
+
+.labelmoveis{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 17%;
+}
+
+footer a {
+    color: #FFFFFF;
 }
 
 footer {
@@ -58,4 +206,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+footer li {
+    line-height: 25px;
 }

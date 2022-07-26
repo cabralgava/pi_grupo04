@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\css\reset.css">
+    <link rel="stylesheet" href="..\css\theme.css">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
@@ -26,20 +27,12 @@
             </nav>
         </div>
        <div class="box2">
-            <nav class="menu2">
-                <ul>
-                    <li>
-                        <a href="">SERVIÇOS</a>
-                    </li>
-                    <li>
-                        <a href="">SOBRE NÓS</a>
-                    </li>
-                </ul>
-                <div class="pesquisar">
-                    <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar" required>
-                    <img src="..\Imagens\lupa 1.svg" alt="lupa">
-                </div>
-            </nav>
+            <div class="servicos"><a href="" title="Serviços">SERVIÇOS</a></div>
+            <div class="sobrenos"><a href="" title="Sobre nós">SOBRE NÓS</a></div>
+            <div class="pesquisar">
+                <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar" required>
+                <img src="..\Imagens\lupa 1.svg" alt="lupa">
+            </div>
        </div>
     </header>
     <main>
@@ -47,31 +40,40 @@
             <img src="..\Imagens\Banner.png" alt="banner">
         </section>
         <section class="servicos1">
-            <div class="diarista">
+            <div id="diarista">
                 <img src="..\Imagens\diarista.png" alt="diarista">
+                <div class="labeldiarista">DIARISTA</div>
             </div>
-            <div class="encanador">
+            <div id="encanador">
                 <img src="..\Imagens\encanador.png" alt="encanador">
+                <div class="labelencanador">ENCANADOR</div>
             </div>
-            <div class="dedetizador">
+            <div id="dedetizador">
                 <img src="..\Imagens\dedetizador.png" alt="dedetizador">
+                <div class="labeldedetizador">DEDETIZADOR</div>
             </div>
-            <div class="eletricista">
+            <div id="eletricista">
                 <img src="..\Imagens\eletricista.png" alt="eletricista">
+                <div class="labeleletricista">ELETRICISTA</div>
             </div>
         </section>
         <section class="servicos2">
-            <div class="pedreiro">
+            <div id="pedreiro">
                 <img src="..\Imagens\padreiro.png" alt="pedreiro">
+                <div class="labelpedreiro">PEDREIRO</div>
             </div>
-            <div class="jardineiro">
+            <div id="jardineiro">
                 <img src="..\Imagens\jardineiro.png" alt="jardineiro">
+                <div class="labeljardineiro">JARDINEIRO</div>
             </div>
-            <div class="chaveiro">
+            <div id="chaveiro">
                 <img src="..\Imagens\chaveiro.png" alt="chaveiro">
+                <div class="labelchaveiro">CHAVEIRO</div>
             </div>
-            <div class="montador">
+            <div id="montador">
                 <img src="..\Imagens\montador de moveis.png" alt="montador de moveis">
+                <div class="labelmontador">MONTADOR</div>
+                <div class="labelmoveis">DE MOVEIS</div>
             </div>
         </section>
     </main>
