@@ -1,0 +1,370 @@
+@import url(https://rsms.me/inter/inter.css);
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter';
+    font-weight: normal;
+  
+  } 
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    width: 100%;
+    height: 100px;
+   
+}
+
+.logo1{
+    display: flex;
+    background-color: white;
+    flex:1;    
+    align-items: center;
+    justify-content: end;
+
+}
+.logo{
+    display: flex;
+    width:70px;
+    height:70px;
+    background-color:white;
+ 
+}
+.logo2{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    flex:1;
+
+}
+.login{
+    display: flex;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px rgb(23, 9, 214);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(52, 22, 185);
+
+}
+.carrinho{
+    display: flex;
+    width:80px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px rgb(23, 9, 214);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(52, 22, 185);
+    }
+.image0{
+    display: flex;
+    width: 20px;
+    height:20px;
+    margin-right: 60px;
+    box-shadow: 0px 5px 0px rgb(23, 9, 214);
+    }
+
+#botao_login{
+    width: 75px;
+        
+    }
+#botao_carrinho{
+    width: 75px;
+    }
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #1d7328;
+    width: 100%;
+    height: 10vh;
+    color: #D3D3D3;
+       
+    }  
+
+.servicos{
+    padding-left: 25px;
+    cursor: pointer;
+    }
+    
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    background-color:  #10274E;
+    align-items: flex-end;
+    }
+.pesquisar{
+    display: flex;
+    flex-direction: row;
+    background-color:  #10274E;
+    flex: 1;
+    align-items: center;
+    }
+.lupa{
+    display: flex;
+    width:20px;
+    height: 20px;
+    position: relative;
+    left: 120px;
+    bottom: 15px;
+    cursor: pointer;
+}
+.pesquisa{
+    height: 30px;
+    text-align:right;
+    border-radius: 25px;
+    padding: 1px 90px 5px 80px;
+    border: solid 1px white;
+    color: #D3D3D3;
+  
+} 
+.menu{
+    margin: auto;
+    background: white;
+   }
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.principal{
+    width: 90%;
+    height: 100%;
+    background: white;
+    border: 1px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+/* IMAGEM DO TRABALHO DIARISTA */
+
+img{
+    width: 100%;
+}
+#imagem_diarista{
+    width: 100%;
+    height: 150px;
+    background: rgb(228, 241, 243);
+    border: 1px;
+    padding: 2px;
+    margin: auto;
+    border-radius: 10px;
+    flex: 1;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    background:white;
+    border-radius: 15px;
+}
+   
+    /* LOGOTIPO DE DIARISTA */
+#logo_diarista{
+    display: flexbox;
+    width: 150px;
+    height: 124px;
+    padding:2px;
+    margin-top: 20px;
+    border: 1px;
+    border-radius: 20px;
+    background: rgb(4, 3, 58);  
+   } 
+#faxineira1{
+    margin-top: 16px;
+    margin-left: 25px;
+    width: 60%;
+    align-items: center;
+    border: 2px;
+    padding: 2px;
+    background-color: rgb(67, 71, 66);
+    border-radius: 20px;
+    
+   }
+
+   /* TEXTO SOBRE O PROFISSIONAL */
+#texto_diarista{
+    flex: auto;
+    width: 88%;
+    height: 85%;
+    margin-left: 50px;
+    margin-top: 20px; 
+    border: 1px;
+    border-radius: 20px;
+    background: rgb(4, 3, 58);
+  
+   }
+.txt_diarista{
+    flex: auto;
+    margin-top:2px;
+    width: 100%;
+    height: 5%;;
+    font-family: inter;
+    color: bisque;
+   }
+ 
+   /* DIV AGENDE UMA VISITA */ 
+   @keyframes beat {
+
+    to{ transform: scale(1.1);}
+    
+}
+.container_dois{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background:  rgb(167, 167, 196); */
+    padding: 2px;
+    margin:auto;
+    margin-top: 10px;
+    border: 1px;
+    border-radius: 15px;
+    justify-content: center;
+   }
+#img_visitante{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+   }
+#visitante{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background: rgb(13, 1, 48);
+    border: 1px;
+    border-radius: 5px;
+
+   }
+.txt_visita{
+    display: flex;
+    margin-left: 20px; 
+    margin-top: auto;
+    font-size: 20px;
+    font-family: inter;
+    color:rgb(13, 1, 48);
+    animation: beat 1.1s infinite alternate;  /* animação */
+   }
+
+   /* DIV DO PREÇO */
+#preço{
+    animation: beat .25s infinite alternate;  /* animação */
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%px;
+    background: rgb(13, 1, 48);
+    margin: auto;
+    border: 1px;
+    border-radius: 10px;
+
+   }
+.preço{
+    
+    display: flex;
+    font-size: 24px;
+    font-family: inter;
+    color: white;
+    margin-top: 1px;
+   }
+.txt_preço{
+    display: flex;
+    font-size: 18px;
+    margin: auto;
+    font-family:inter;
+    color: white;
+    width: 280px;
+    margin-left: 5px;
+    font-family: inter;
+    font-size: 14px;
+   }
+#botao_comprar{
+    display: flex;
+    width: 100%;
+   }   
+   
+   /* FOOTER */
+.footer_principal{
+    display: flex;
+    flex-direction: row;
+   }
+.hiper{
+    display: flex;
+    background: #10274E;
+    flex:3;
+    align-items: center;
+   }
+.preFooter{
+    display: flex;
+    background: #10274E;
+    flex:1;    
+   }
+
+
+footer{
+    display: flex;
+    background-color: #10274E;
+    height:55px;
+   }
+
+
+
+.socialmediapre{
+    display: flex;
+
+    width: 160px;
+    height: 30px;
+    padding-top: 12px;
+    margin-left: 20px ;
+    cursor: pointer;
+   }
+
+.texto1{
+    margin-left: 20px ;
+    color:white;
+    cursor: pointer;
+   }
+
+.texto2{
+    margin-left: 20px ;
+    color:white;
+    cursor: pointer;
+   }
+
+.meiosdepagamento{
+    display: flex;
+    cursor: pointer;
+    width:100%;
+    height: 100px;
+    margin: auto;
+   }
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+   }
+.logoDH{
+  
+    width:10%;
+    margin-left: 10px;
+   }
+
+.agradece{
+    color:white;
+    font-weight: 200;
+   }
+
+
+
