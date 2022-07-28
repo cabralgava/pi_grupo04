@@ -79,11 +79,11 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    background-color: #1d7328;
+    background-color: #1D3D73;
     width: 100%;
     height: 10vh;
     color: #D3D3D3;
-       
+    
     }  
 
 .servicos{
@@ -97,6 +97,7 @@ nav{
     flex: 3;
     background-color:  #1D3D73;
     align-items: flex-end;
+    align-items: center;  
     }
 .pesquisar{
     display: flex;
@@ -110,17 +111,19 @@ nav{
     width:20px;
     height: 20px;
     position: relative;
-    left: 120px;
+    right: 75px;
     bottom: 15px;
     cursor: pointer;
 }
 .pesquisa{
-    height: 30px;
-    text-align:right;
+    height: 20px;
+    text-align: center;
     border-radius: 25px;
-    padding: 1px 90px 5px 80px;
+    padding: 1px 70px 5px 80px;
     border: solid 1px white;
     color: #D3D3D3;
+    margin-left: 40px;
+
   
 } 
 .menu{
@@ -134,6 +137,8 @@ body{
 }
 
 .principal{
+    display: flex;
+    flex-direction: column;
     width: 90%;
     height: 100%;
     background: white;
@@ -143,12 +148,18 @@ body{
     margin-top: 10px;
     border-radius: 15px;
 }
-/* IMAGEM DO TRABALHO DIARISTA */
+/* IMAGEM DO TRABALHADOR */
 
 img{
     width: 100%;
+
 }
+#diarista{
+   margin: auto;
+} 
 #imagem_diarista{
+ 
+   
     width: 100%;
     height: 150px;
     background: rgb(228, 241, 243);
@@ -187,7 +198,7 @@ img{
     align-items: center;
     border: 2px;
     padding: 2px;
-    background-color: rgb(67, 71, 66);
+    background-color: #1D3D73;
     border-radius: 20px;
     
    }
@@ -257,11 +268,11 @@ img{
    }
 
    /* DIV DO PREÇO */
-#preço{
+#preco{
     animation: beat .25s infinite alternate;  /* animação */
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 180px;
     width: 100%px;
     background: #1D3D73;
     margin: auto;
@@ -269,28 +280,30 @@ img{
     border-radius: 10px;
 
    }
-.preço{
+.preco{
     
     display: flex;
-    font-size: 24px;
+    font-size: 40px;
     font-family: inter;
     color: white;
     margin-top: 1px;
    }
-.txt_preço{
+.txt_preco{
     display: flex;
     font-size: 18px;
     margin: auto;
     font-family:inter;
     color: white;
     width: 280px;
-    margin-left: 5px;
+   
     font-family: inter;
     font-size: 14px;
+    padding: 20px;
    }
 #botao_comprar{
     display: flex;
-    width: 100%;
+    height: 60px;
+    width: 400px;
    }   
    
    /* FOOTER */
@@ -321,7 +334,6 @@ footer{
 
 .socialmediapre{
     display: flex;
-
     width: 160px;
     height: 30px;
     padding-top: 12px;
@@ -344,7 +356,7 @@ footer{
 .meiosdepagamento{
     display: flex;
     cursor: pointer;
-    width:100%;
+    width:70%;
     height: 100px;
     margin: auto;
    }
@@ -362,8 +374,10 @@ footer{
    }
 
 .agradece{
+    
     color:white;
     font-weight: 200;
+
    }
 
 

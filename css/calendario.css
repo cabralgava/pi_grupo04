@@ -4,12 +4,13 @@
     width: 400px;
     margin-left: 10px;
     border-radius: 15px;
+    background-color: rgb(234, 240, 238);
    
   }
   .botoes{
     display:flex;
     position:absolute;
-    top: 500px;
+    top: 585px;
     left: 175px;
     flex-direction: row;
     align-items: center;
@@ -20,17 +21,17 @@
     display: flex;
     width: 40%;
     cursor: pointer;
-    box-shadow: 4px 0px 15px rgb(23, 9, 214);
+    box-shadow: 4px 0px 15px #1D3D73;
     border: none;
     outline: none;
     padding: 5px;
     border-radius: 5px;
-    color: rgb(52, 22, 185); 
+    color: #1D3D73;
   } 
   
   #header {
     padding: 10px;
-    color: rgb(4, 4, 133) ;
+    color: #1D3D73;
     font-size: 28px;
     font-weight: 549;
     font-family: sans-serif;
@@ -130,11 +131,11 @@
     border: 2px solid rgb(30, 145, 64);
   }
   #cancelButton, #deleteButton {
-    background-color:rgb(26, 22, 243);
+    background-color:#1D3D73;
     color:rgb(14, 13, 13)
   }
   #saveButton, #closeButton {
-    background-color: rgb(26, 22, 243);
+    background-color: #1D3D73;
     color:rgb(14, 13, 13)
   }
   #eventText {
@@ -154,22 +155,22 @@
     width:60px;
     height: 20px;
     cursor: pointer;
-    box-shadow: 0px 5px 0px rgb(23, 9, 214);
+    box-shadow: 0px 5px 0px #1D3D73;
     border: none;
     outline: none;
      padding: 5px; 
     border-radius: 5px;
-    color: rgb(52, 22, 185);
+    color: #1D3D73;
   }
    #nextButton{
     width:60px;
     height: 20px;
     cursor: pointer;
-    box-shadow: 0px 5px 0px rgb(23, 9, 214);
+    box-shadow: 0px 5px 0px #1D3D73;
     border: none;
     outline: none;
     padding: 5px;
     border-radius: 5px;
-    color: rgb(52, 22, 185);
+    color: #1D3D73;
   }
      
