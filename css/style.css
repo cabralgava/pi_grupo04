@@ -380,5 +380,46 @@ footer{
 
    }
 
+/* 
+
+   ooooooooooooooooooooooooooooooooo */
+
+
+   footer a {
+    color: #FFFFFF;
+}
+
+.footer {
+    margin-top: 60px;
+    height: 150px;
+    background-color: #1D3D73;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.alinhamento {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+footer li {
+
+    line-height: 25px;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartoes img {
+    width: 50%;
+    height: 50%;
+}
 
 
