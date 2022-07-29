@@ -4,9 +4,11 @@
     margin: 0%;
     font-family: 'Inter';
     font-weight: normal;
+    list-style-type:none
   
   } 
 
+ /* HEADER  */
 header{
     display: flex;
     flex-direction: row;
@@ -43,10 +45,10 @@ header{
     width: 80px;
     height: 20px;
     cursor: pointer;
-    box-shadow: 0px 5px 0px  #1D3D73;
-    border: none;
-    outline: none;
-    border-radius: 5px;
+    /* box-shadow: 0px 5px 0px  #1D3D73; */
+    /* border: none;
+    outline: none; */
+    /* border-radius: 5px; */
     color:  #1D3D73;
 
 }
@@ -55,10 +57,10 @@ header{
     width:80px;
     height: 20px;
     cursor: pointer;
-    box-shadow: 0px 5px 0px  #1D3D73;
+    /* box-shadow: 0px 5px 0px  #1D3D73; */
     border: none;
     outline: none;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     color:  #1D3D73;
     }
 .image0{
@@ -66,7 +68,8 @@ header{
     width: 20px;
     height:20px;
     margin-right: 60px;
-    box-shadow: 0px 5px 0px  #1D3D73;
+    cursor: pointer;
+    /* box-shadow: 0px 5px 0px  #1D3D73; */
     }
 
 #botao_login{
@@ -76,6 +79,8 @@ header{
 #botao_carrinho{
     width: 75px;
     }
+
+ /* MENU DE NAVEGAÇÃO   */
 nav{
     display: flex;
     flex-direction: row;
@@ -87,8 +92,9 @@ nav{
     }  
 
 .servicos{
-    padding-left: 25px;
+    padding-left: 20px;
     cursor: pointer;
+    padding: 93px;
     }
     
 .navegacao{
@@ -126,10 +132,8 @@ nav{
 
   
 } 
-.menu{
-    margin: auto;
-    background: white;
-   }
+
+/* CORPO  */
 body{
     width: 100%;
     height: 100%;
@@ -180,7 +184,7 @@ img{
     border-radius: 15px;
 }
    
-    /* LOGOTIPO DE DIARISTA */
+    /* LOGOTIPO DO PROFISSIONAL */
 #logo_diarista{
     display: flexbox;
     width: 150px;
@@ -307,83 +311,6 @@ img{
    }   
    
    /* FOOTER */
-.footer_principal{
-    display: flex;
-    flex-direction: row;
-   }
-.hiper{
-    display: flex;
-    background:  #1D3D73;
-    flex:3;
-    align-items: center;
-   }
-.preFooter{
-    display: flex;
-    background:  #1D3D73;
-    flex:1;    
-   }
-
-
-footer{
-    display: flex;
-    background-color:  #1D3D73;;
-    height:55px;
-   }
-
-
-
-.socialmediapre{
-    display: flex;
-    width: 160px;
-    height: 30px;
-    padding-top: 12px;
-    margin-left: 20px ;
-    cursor: pointer;
-   }
-
-.texto1{
-    margin-left: 20px ;
-    color:white;
-    cursor: pointer;
-   }
-
-.texto2{
-    margin-left: 20px ;
-    color:white;
-    cursor: pointer;
-   }
-
-.meiosdepagamento{
-    display: flex;
-    cursor: pointer;
-    width:70%;
-    height: 100px;
-    margin: auto;
-   }
-
-.foot{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: auto;
-   }
-.logoDH{
-  
-    width:10%;
-    margin-left: 10px;
-   }
-
-.agradece{
-    
-    color:white;
-    font-weight: 200;
-
-   }
-
-/* 
-
-   ooooooooooooooooooooooooooooooooo */
-
 
    footer a {
     color: #FFFFFF;
