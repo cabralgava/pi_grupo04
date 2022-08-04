@@ -1,0 +1,293 @@
+@import url(https://rsms.me/inter/inter.css);
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter';
+    font-weight: normal;
+  }
+
+header{
+    background-color: white;
+    width: 100%;
+    height: 17vh;
+}
+
+.acompanhe-nos{
+    padding-top:27px;
+    font-weight: 700;
+    padding-left: 200px;
+    word-wrap: break-word;
+    
+}
+
+.hiper{
+    padding-bottom:23px;
+}
+
+.socialMedia{
+    padding-left: 200px;
+    padding-top:40px;
+    padding-bottom:100px;
+    width: 18%;
+}
+
+.imagem{
+    padding-left: 610px;
+        width: 204px;
+    height: 340px;
+}
+
+.logo{
+    width:70px;
+    height:70px;
+    padding-top:27px;
+    padding-left: 710px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login{
+    padding-left: 480px;
+    position: absolute;
+    padding-top:55px;
+}
+
+.lupa{
+    position: absolute;
+    width:1%;
+    padding-top:156px;
+    padding-left: 447px;
+}
+
+.servicos{
+    padding-left: 25px;
+}
+
+.carrinho{
+    padding-left: 550px;
+    position: absolute;
+    padding-top:55px;
+}
+
+.image0{
+    width:20px;
+    height:20px;
+    padding-left: 640px;
+    padding-top:55px;
+    position: absolute;
+}
+
+.itens{
+    padding-top: 27px;
+    padding-left: 55px;
+    color: white;
+}
+
+.caixa{
+    border: solid 1px black;
+    margin: 60px 75px 170px 55px;
+    padding: 55px
+}
+
+button:hover{
+    color:white;
+    background-color:#1D3D73;
+    font-weight: 500;
+
+}
+/*Caixona*/
+.carinha{
+    position:absolute;
+    width: 15%;
+    margin-left:60px;
+    margin-top:8px;
+    border: 2px solid rgba(0, 0, 0, 0.39);
+}
+.alterarFoto{
+    position:absolute;
+    margin-top:320px;
+    margin-left:70px;
+    font-family: 'Inter';
+    font-style: normal;
+    color:black;
+    font-weight: 420;
+    font-size: 20px;
+    padding:10px 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+
+}
+.nome{
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+
+.email{
+   
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+
+.senha{
+    
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+.cep{
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+.rua{
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+.número{
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+.CPF{
+    border: solid 1px black;
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(29, 61, 115, 0.53);
+    padding: 10px;
+    margin: 10px 0px 10px 400px;
+}
+
+.perfilUser{
+    padding-top:85px;
+    padding-left: 55px;
+    font-size: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    color: #1D3D73;
+}
+
+/*Caixona*/
+
+.salvarAlteras{
+    position:absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    color:black;
+    margin-top:100px;
+    font-weight: 420;
+    font-size: 20px;
+    padding:10px 30px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+}
+
+.pesquisa{
+    text-align:right;
+    border-radius: 25px;
+    padding: 5px 100px 5px 30px;
+    border: solid 1px white;
+    color: #D3D3D3;
+    fill-opacity: 83%;
+    margin-left: 1001px;
+}
+
+menu{
+    background-color: #1D3D73;
+    width: 100%;
+    height: 10vh;
+}
+
+main{
+    background-color: white;
+
+}
+
+footer{
+    background-color: #10274E;
+    height:55px;
+}
+
+.preFooter{
+    padding-left: 55px;
+    padding-top: 27px;
+    background: #1D3D73;
+}
+
+.socialmediapre{
+    width: 160px;
+    height: 30px;
+    padding-top: 12px;
+}
+
+.texto1{
+    padding-bottom: 10px;
+    color:white;
+}
+
+.texto2{
+    color:white;
+}
+
+.meiosdepagamento{
+    width: 340px;
+    height: 100px;
+    padding-left: 1080px;
+    position: absolute;
+}
+
+.logoDH{
+    position: absolute;
+    width: 3%;
+    padding-left: 820px;
+    padding-top: 4px;
+}
+
+.agradece{
+    position: absolute;
+    color:white;
+    font-weight: 200;
+    padding-left: 520px;
+    padding-top: 18px;
+}
